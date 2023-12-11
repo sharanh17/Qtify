@@ -20,7 +20,8 @@
     line-height: 1.5;
     -webkit-font-smoothing:antialiased;
     background-color: var(--color-black);
-    color:var(--color-white)
+    color:var(--color-white);
+    overflow: hidden;
   
   }
   img,
@@ -49,4 +50,15 @@ h6{
 #root,
 #__next{
   isolation: isolate;
+}
+
+.swiper-slide{
+  width:auto !important;
+}
+a,
+a:hover,
+a:focus,
+a:active{
+  text-decoration: none;
+  color:inherit;
 }
