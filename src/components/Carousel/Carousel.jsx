@@ -17,6 +17,7 @@ const Controls=({data})=>{
 }
 function Carousel({data,renderComponent}) {
   console.log('CarouselData :',data)
+  //sharan here
   return (
     <div className={styles.wrapper}>
     <Swiper 
