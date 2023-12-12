@@ -7,7 +7,7 @@ import 'swiper/css';
 import CarouselLeftNavigation from './CarouselLeftNavigation/CarouselLeftNavigation'
 import CarouselRightNavigation from'./CarouselRightNavigation/CarouselRightNavigation'
 
-
+//sharan
 const Controls=({data})=>{
     const swiper =useSwiper();
     useEffect(()=>{
