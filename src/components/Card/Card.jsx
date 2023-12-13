@@ -19,14 +19,14 @@ function Card({data,type}){
                                 <div className={styles.card}>
                             <img src={image} alt='album' loading='lazy'/>
                             <div className={styles.banner}>
+                                   className=''
                                 <Chip 
-                                label={`${follows} Follows`}
-                                size="small"
-                                className=''
                                 />
                             </div>
                                 </div>
-                                <div className={ styles.titleWrapper}>
+                               label={`${follows} Follows`}
+                                size="small"
+                              <div className={ styles.titleWrapper}>
                                   <p>{title}</p>
                                 </div>
                             </div>
@@ -55,8 +55,8 @@ function Card({data,type}){
                     </div>
     
                 )
-           
-
+       
+    
             }
                default :
                return <></>
@@ -67,3 +67,4 @@ function Card({data,type}){
 }
 
 export default Card;
+
