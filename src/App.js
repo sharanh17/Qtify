@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
 import { fetchNewAlbums,fetchSongs,fetchTopAlbums } from './api/api';
+import Footer from "./components/Footer/Footer"
 
 // import Hero from './components/Hero/Hero';
 // import Card from './components/Card/Card';
@@ -36,8 +37,10 @@ function App() {
       <StyledEngineProvider injectFirst>
      <Navbar/>
      <Outlet  context={{data:{topAlbums,newAlbums,songs}}}/>
+     <Footer/>
      </StyledEngineProvider>
     </>
+    
 
 
   );

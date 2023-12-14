@@ -1,0 +1,13 @@
+.wrapper{
+    background-color: var(--color-black);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.accordion{
+     justify-content: center;
+     margin-left: 100px;
+     margin-right: 100px;
+
+}
